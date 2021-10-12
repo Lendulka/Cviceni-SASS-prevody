@@ -97,6 +97,6 @@ body {
 
 ## Bonus
 
-- Na obrazovkách větších než `600px` zvětši velikost textu v tlačítku na `20px`.
+- Na obrazovkách větších než `600px` zvětši velikost textu v tlačítku na `20px`. Media query zanoř do bloku se styly pro `.tlacitko`.
 
 - Přepiš `scss` na `sass`. Budeš muset změnit příponu v názvu souboru a výskyty v `package.json`, taky odstranit všechny přebytečné závorky a středníky.
