@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "sass styly.scss styly.css"
+		"build": "sass styly.scss styly.css",
+		"dev": "sass --watch styly.scss styly.css"
 	},
 	"repository": {
 		"type": "git",

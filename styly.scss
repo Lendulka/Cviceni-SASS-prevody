@@ -1,3 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 body {
-	color: red;
+	font-family: sans-serif;
+	background-color: #f3f9ff;
+	max-width: 600px;
+	margin: 20px auto;
 }
