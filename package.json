@@ -1,25 +1,25 @@
 {
-	"name": "cviceni-sass-prevody",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "sass styly.scss styly.css",
-		"dev": "sass --watch styly.scss styly.css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody/issues"
-	},
-	"homepage": "https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody#readme",
-	"dependencies": {
-		"sass": "^1.42.1"
-	}
+  "name": "cviceni-sass-prevody",
+  "version": "1.0.0",
+  "description": "- Naklonuj si tento repozitář a kopii stáhni k sobě do počítače.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass styly.scss styly.css",
+    "dev": "sass --watch styly.scss styly.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody/issues"
+  },
+  "homepage": "https://github.com/Czechitas-podklady-WEB/Cviceni-SASS-prevody#readme",
+  "dependencies": {
+    "sass": "^1.42.1"
+  }
 }

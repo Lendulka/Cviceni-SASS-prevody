@@ -1,3 +1,6 @@
+
+$hlavni-barva: #0b7ff4;
+
 html {
 	box-sizing: border-box;
 }
@@ -14,3 +17,71 @@ body {
 	max-width: 600px;
 	margin: 20px auto;
 }
+
+.vypis {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+}
+
+.produkt {
+	background-color: #ffffff;
+
+	&__media {
+			width: 100%;
+			aspect-ratio: 4/3;
+			object-fit: cover;	
+
+		&--bota {
+			object-position: 50% 30%;
+		}
+
+		&--kolo {
+			object-position: 50% 100%;
+		}
+
+		&--nausnice {
+			object-position: 50% 50%;
+		}
+
+		&--vaza {
+			object-position: 50% 68%;
+		}
+	}
+
+	&__obsah {
+			padding: 10px;
+			display: grid;
+			grid-template-columns: 1fr auto;
+			align-items: center;
+	}
+
+	&__nazev {
+			margin: 0;
+	}
+
+	&__cena {
+			color: #f00000;
+	}
+
+	&__akce {
+			margin-top: 16px;
+			grid-column: 1/-1;
+			text-align: center;
+			display: flex;
+	}
+}
+
+.tlacitko {
+	display: inline-block;
+	color: #ffffff;
+	background-color: $hlavni-barva;
+	padding: 0.4em 0.8em;
+	text-decoration: none;
+	flex-grow: 1;
+
+	&:hover,
+	&:focus {
+			background-color: darken($hlavni-barva, 20%);
+	}
+}	
